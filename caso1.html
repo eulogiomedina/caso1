@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro </title>
+    <link rel="stylesheet" href="caso1.css">
+</head>
+
+
+<body>
+    <marquee behavior="" direction="right">EULOGIO MEDINA FELIX</marquee>
+    <form class="contenido" action="conferencia.html" method="get">
+        <h1 style="text-align:center;"> Registro de <span>Usuarios</span>  </h1>
+        <br>
+        <label for="nombre">Ingrese su nombre: </label>
+        <input class="nom" type="text" name="nombre" id="nombre" placeholder="Nombre completo">
+        <br>
+        <label  for="correo">Ingrese su correo: </label>
+        <input class="nom" type="email" name="correo" id="correo" placeholder="Correo electronico" >
+        <br>
+        <label for="correo">Ingrese su  telefono: </label>
+        <input class="nom" type="tel" name="numero" id="numero" placeholder="numero" >
+        <br>
+        <label  for="correo">Ingrese la hora de entrada: </label>
+        <input class="nom" type="time" name="hora" id="hora">
+        <br>
+        <label class="edad" for="correo">ingrese su edad: </label>
+        <input class="nom" type="number" name="hora" id="hora" placeholder="edad">
+        <section>
+            <label for="nombre">Ocupacion: </label>
+            <select class="nom">
+                <option value="">desarrolador web</option>
+                <option value="">desarrolador de sistemas</option>
+                <option value="">docente</option>
+                <option value="">estudiante</option>
+                <option value="">programador </option>
+            </select>
+        </section>
+        <p class="sele"> 
+            Sexo:
+            <input class="sexx" type="radio" name="MUJER" value="S">F
+            <input class="sexx" type="radio" name="HOMBRE" value="M">M
+            
+        </p>
+        <p class="sele">
+            Talla de camiseta:
+            <input class="sexx1" type="radio" name="S" value="S">S 
+            <input class="sexx1"type="radio" name="L" value="L">L
+            <input class="sexx1"type="radio" name="M" value="M">M
+            <input class="sexx1"type="radio" name="XL" value="XL">XL 
+            
+        </p>
+        <p class="sele">
+            preferencias dieteticas:
+            <input type="checkbox" name="v" value="v">vegetariano
+            <input type="checkbox" name="vg" value="vg">vegano
+            <input type="checkbox" name="sg" value="sg">sin gluten
+            <input type="checkbox" name="sr" value="sr">sin restriccione
+        </p>
+
+        <input class="boton" type="submit" value="registrar">
+    </form>
+</body>
+</html>
